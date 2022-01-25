@@ -4,7 +4,7 @@ import { Card, CardTitle, CardText, Button, List } from 'reactstrap';
 const Experiences = () => {
   return (
     <section id='experiences'>
-      <h1 className='mb-4'>2. Experiences and Education</h1>
+      <h1 className='mb-4 experiences-title'>2. Experiences and Education</h1>
       <div className='exp-first'>
         <h4 className='ml-3'>Software Engineer Intern @ Skipli</h4>
         <h6 className='ml-3'>Jan 2022 - Present</h6>

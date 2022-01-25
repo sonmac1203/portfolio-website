@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id='about'>
       <Container>
-        <h1>1. About me</h1>
+        <h1 className='about-title'>1. About me</h1>
         <Row className='d-flex justify-content-center mt-4'>
           <Col className='about-paragraph'>
             <p>

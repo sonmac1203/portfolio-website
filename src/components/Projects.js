@@ -8,7 +8,7 @@ import restaurant from '../photos/restaurant.png';
 const Projects = () => {
   return (
     <section id='projects'>
-      <h1 className='mb-4'>3. Projects</h1>
+      <h1 className='mb-4 projects-title'>3. Projects</h1>
       <div className='mb-4'>
         <Row>
           <Col>
@@ -41,6 +41,11 @@ const Projects = () => {
                   and achieve 65% code coverage.
                 </li>
               </List>
+              <h6 className='ml-4'>
+                Zendesk API &nbsp; &nbsp; React &nbsp; &nbsp; Bootstrap &nbsp;
+                &nbsp; Reactstrap &nbsp; &nbsp; Jest &nbsp; &nbsp; Git &nbsp;
+                &nbsp; Netlify
+              </h6>
             </div>
           </Col>
         </Row>
@@ -69,6 +74,10 @@ const Projects = () => {
                   favorite photos and generating a shareable link.
                 </li>
               </List>
+              <h6 className='ml-4'>
+                NASA API &nbsp; &nbsp; React &nbsp; &nbsp; Bootstrap &nbsp;
+                &nbsp; Reactstrap &nbsp; &nbsp; Jest &nbsp; &nbsp; Git
+              </h6>
             </div>
           </Col>
           <Col>
@@ -107,6 +116,10 @@ const Projects = () => {
                   inheritance, abstraction, and serialization.
                 </li>
               </List>
+              <h6 className='ml-4'>
+                Java &nbsp; &nbsp; Swing &nbsp; &nbsp; OOP &nbsp; &nbsp; Acceleo
+                &nbsp; &nbsp; Papyrus &nbsp; &nbsp; Eclipse
+              </h6>
             </div>
           </Col>
         </Row>
