@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardTitle, CardText, Button, List, Container } from 'reactstrap';
+import { List, Container } from 'reactstrap';
 
 const Experiences = () => {
   return (

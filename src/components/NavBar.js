@@ -4,7 +4,6 @@ const NavBar = () => {
   return (
     <div className='navbar d-flex justify-content-center mt-3'>
       <div>
-        {' '}
         <a href='#about' className='ordinary-link'>
           About
         </a>
@@ -15,7 +14,6 @@ const NavBar = () => {
         </a>
       </div>
       <div className='ml-4'>
-        {' '}
         <a href='#projects' className='ordinary-link'>
           Projects
         </a>
