@@ -14,8 +14,12 @@ const Projects = () => {
         </h2>
         <div className='mb-5'>
           <Row>
-            <Col xl='6' className='order-xl-1'>
-              <img src={zendesk} className='project-img' />
+            <Col xl='6' className='order-xl-1 mb-2'>
+              <img
+                src={zendesk}
+                className='project-img'
+                alt='zendesk ticket viewer demo'
+              />
             </Col>
             <Col xl='6' className='order-xl-2 project-card'>
               <div className='project-description-odd'>
@@ -24,10 +28,18 @@ const Projects = () => {
                     #personal
                   </Badge>
 
-                  <i className='fab fa-github mr-4 mt-4'></i>
+                  <a
+                    href='https://github.com/sonmac1203/Zendesk_Ticket_Viewer_Version2'
+                    target='_blank'
+                    className='ordinary-link'
+                  >
+                    <i className='fab fa-github mr-4 mt-4'></i>
+                  </a>
                 </div>
 
-                <h3 className='ml-4 project-name'>Zendesk Ticket Viewer</h3>
+                <h3 className='ml-4 mb-4 project-name'>
+                  Zendesk Ticket Viewer
+                </h3>
                 <List className='mr-3 ml-4' type='unstyled'>
                   <li>
                     An intuitive web app with React and Bootstrap components to
@@ -40,7 +52,7 @@ const Projects = () => {
                     animated error page to safeguard API failures.
                   </li>
                 </List>
-                <h6 className='ml-4 mb-4 project-tech'>
+                <h6 className='ml-4 mb-4 mr-4 mt-4 project-tech'>
                   Zendesk API &nbsp; &nbsp; React &nbsp; &nbsp; Bootstrap &nbsp;
                   &nbsp; Reactstrap &nbsp; &nbsp; Jest &nbsp; &nbsp; Netlify
                 </h6>
@@ -50,8 +62,8 @@ const Projects = () => {
         </div>
         <div className='mb-5'>
           <Row>
-            <Col xl='6' className='order-xl-2'>
-              <img src={nasa} className='project-img' />
+            <Col xl='6' className='order-xl-2 mb-2'>
+              <img src={nasa} className='project-img' alt='nasallery demo' />
             </Col>
             <Col xl='6' className='order-xl-1'>
               <div className='project-description-even'>
@@ -60,11 +72,23 @@ const Projects = () => {
                     #personal
                   </Badge>
                   <div>
-                    <i className='fab fa-github mr-3 mt-4'></i>
-                    <i className='fas fa-external-link-alt mr-4'></i>
+                    <a
+                      href='https://github.com/sonmac1203/NASA-Gallery'
+                      target='_blank'
+                      className='ordinary-link'
+                    >
+                      <i className='fab fa-github mr-3 mt-4'></i>
+                    </a>
+                    <a
+                      href='https://ki0z4.csb.app/'
+                      target='_blank'
+                      className='ordinary-link'
+                    >
+                      <i className='fas fa-external-link-alt mr-4'></i>
+                    </a>
                   </div>
                 </div>
-                <h3 className='ml-4 project-name'>NASALLERY</h3>
+                <h3 className='ml-4 mb-4 project-name'>NASALLERY</h3>
                 <List className='mr-3 ml-4 type="unstyled"' type='unstyled'>
                   <li>
                     I built a photo gallery web app in React with Bootstrap
@@ -77,9 +101,9 @@ const Projects = () => {
                     favorite photos and generating a shareable link.
                   </li>
                 </List>
-                <h6 className='ml-4 mb-4 project-tech'>
+                <h6 className='mx-4 my-4 project-tech'>
                   NASA API &nbsp; &nbsp; React &nbsp; &nbsp; React Router &nbsp;
-                  &nbsp; Bootstrap &nbsp; &nbsp; Reactstrap &nbsp; &nbsp; Git
+                  &nbsp; Reactstrap &nbsp; &nbsp; Git
                 </h6>
               </div>
             </Col>
@@ -87,16 +111,28 @@ const Projects = () => {
         </div>
         <div>
           <Row>
-            <Col xl='6'>
-              <img src={restaurant} className='project-img' />
+            <Col xl='6' className='order-xl-1 mb-2'>
+              <img
+                src={restaurant}
+                className='project-img'
+                alt='restaurant system demo'
+              />
             </Col>
-            <Col xl='6'>
+            <Col xl='6' className='order-xl-2'>
               <div className='project-description-odd'>
                 <div className='d-flex justify-content-between'>
                   <Badge className='ml-4 mt-4 mb-3 project-badge'>#team</Badge>
-                  <i className='fab fa-github mr-4 mt-4'></i>
+                  <a
+                    href='https://github.com/sonmac1203/Restaurant_System'
+                    target='_blank'
+                    className='ordinary-link'
+                  >
+                    <i className='fab fa-github mr-4 mt-4'></i>
+                  </a>
                 </div>
-                <h3 className='ml-4 project-name'>Restaurant Management App</h3>
+                <h3 className='ml-4 mb-4 project-name'>
+                  Restaurant Management App
+                </h3>
                 <List className='mr-3 ml-4' type='unstyled'>
                   <li>
                     A semester long project in an OOP course where I led a team
@@ -109,9 +145,9 @@ const Projects = () => {
                     for better visualization and scalability
                   </li>
                 </List>
-                <h6 className='ml-4 mb-4 project-tech'>
-                  Java &nbsp; &nbsp; Swing &nbsp; &nbsp; OOP &nbsp; &nbsp;
-                  Acceleo &nbsp; &nbsp; Papyrus &nbsp; &nbsp; Eclipse
+                <h6 className='mx-4 my-4 project-tech'>
+                  Java &nbsp; &nbsp; Swing &nbsp; &nbsp; Acceleo &nbsp; &nbsp;
+                  Papyrus &nbsp; &nbsp; Eclipse
                 </h6>
               </div>
             </Col>

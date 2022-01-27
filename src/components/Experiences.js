@@ -11,7 +11,15 @@ const Experiences = () => {
         <div className='exp-item mb-5'>
           <h4 className='ml-3 experience-title'>
             Software Engineer Intern @{' '}
-            <span className='emphasized'>Skipli</span>
+            <span className='emphasized'>
+              <a
+                href='https://www.skiplinow.com/'
+                target='_blank'
+                className='special-link'
+              >
+                Skipli
+              </a>
+            </span>
           </h4>
           <h6 className='ml-3 mb-4'>Jan 2022 - Present</h6>
           <List className='exp-list'>

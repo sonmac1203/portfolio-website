@@ -8,7 +8,7 @@ const About = () => {
       <Container className='about-containter'>
         <h2 className='element-name'>Who I am &#9995;</h2>
         <Row className='mt-4'>
-          <Col className='about-paragraph' lg='7'>
+          <Col className='about-paragraph mb-4' lg='7'>
             <p className='mb-4'>
               Hi there! My name is <span className='emphasized'>Son Mac</span>.
               I am an <span className='emphasized'>international</span>{' '}
@@ -44,7 +44,11 @@ const About = () => {
             </p>
           </Col>
           <Col className='img-about' lg='5'>
-            <img src={avatar} className='img-fluid avatar' />
+            <img
+              src={avatar}
+              className='img-fluid avatar'
+              alt='A photo of me'
+            />
           </Col>
         </Row>
       </Container>

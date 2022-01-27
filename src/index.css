@@ -12,7 +12,7 @@ body {
 }
 
 .element-name {
-  padding-top: 140px;
+  padding-top: 100px;
   color: #b2ffff;
 }
 
@@ -45,6 +45,11 @@ h1.my-name {
   width: 280px;
   box-shadow: 10px 10px #fdee17, -10px -10px #b2ffff;
   border-radius: 10px;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+}
+
+.avatar:hover {
+  transform: scale(1.2);
 }
 
 .exp-item {
@@ -71,6 +76,11 @@ h1.my-name {
   height: 100%;
   box-shadow: 0px 10px 20px #07121f;
   border-radius: 5px;
+  transition: transform 600ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
 }
 
 .project-name,
@@ -87,8 +97,12 @@ h1.my-name {
 }
 
 i {
-  font-size: 20px;
+  font-size: 28px;
   color: #fdee17;
+}
+
+i:hover {
+  transform: scale(1.3);
 }
 
 .fa-github-square,
@@ -115,17 +129,28 @@ i {
   color: #b2ffff;
 }
 
-a {
+a.ordinary-link {
   color: #b2ffff;
 }
 
-a:hover {
+a.ordinary-link:hover {
   text-decoration: none;
   color: #fdee17;
 }
 
+a.special-link {
+  color: #fdee17;
+}
+
+a.special-link:hover {
+  font-size: larger;
+  text-decoration: none;
+  color: #fdee17;
+  transform: scale(1.2);
+}
+
 .exp-list {
-  list-style: square;
+  list-style-type: '‣  ';
 }
 
 .btn.contact-btn {
@@ -143,8 +168,8 @@ a:hover {
 }
 
 .btn.contact-btn:active {
-  background-color: #fdee17;
-  color: #071c34;
+  background-color: #fdee17 !important;
+  color: #071c34 !important;
   border: none;
-  box-shadow: none;
+  box-shadow: none !important;
 }
