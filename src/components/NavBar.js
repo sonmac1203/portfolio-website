@@ -16,9 +16,11 @@ const NavBar = () => {
   return (
     <div>
       <Navbar fixed='top' color='light' light expand='md'>
-        <NavbarBrand href='/'>Son Mac</NavbarBrand>
+        {/* <NavbarBrand href='/' className='ml-5'>
+          SM
+        </NavbarBrand> */}
         <Collapse isOpen={isOpen} navbar>
-          <Nav className='mr-auto' navbar>
+          <Nav className='ml-auto' navbar>
             <NavItem>
               <NavLink href='#about'>1. About</NavLink>
             </NavItem>
@@ -32,8 +34,6 @@ const NavBar = () => {
               <NavLink href='#contact'>4. Contact</NavLink>
             </NavItem>
           </Nav>
-          <i className='fab fa-linkedin'></i>
-          <i className='fab fa-github-square'></i>
         </Collapse>
       </Navbar>
     </div>

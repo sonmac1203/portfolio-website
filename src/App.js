@@ -5,17 +5,19 @@ import Contact from './components/Contact';
 import Experiences from './components/Experiences';
 import Hello from './components/Hello';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 import { Container } from 'reactstrap';
 
 function App() {
   return (
     <main>
-      <NavBar />
+      {/* <NavBar /> */}
       <Hello />
       <About />
       <Experiences />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   );
 }

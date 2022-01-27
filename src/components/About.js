@@ -1,37 +1,50 @@
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
-import avatar from '../photos/son1.jpg';
+import avatar from '../photos/avatar.jpg';
 
 const About = () => {
   return (
     <section id='about'>
       <Container>
-        <h1 className='about-title'>1. About me</h1>
-        <Row className='d-flex justify-content-center mt-4'>
-          <Col className='about-paragraph'>
+        <h2 className='element-name'>About me</h2>
+        <Row className='mt-4'>
+          <Col className='about-paragraph' lg='7'>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Hi there! My name is <span className='emphasized'>Son Mac</span>.
+              I am an <span className='emphasized'>international</span>{' '}
+              undergraduate student in{' '}
+              <span className='emphasized'>
+                Electrical &#38; Computer Engineering
+              </span>{' '}
+              at the <span className='emphasized'>University of Arizona</span>.
+              Entering junior year in college, I have found myself really
+              interested in{' '}
+              <span className='emphasized'>software development</span>,
+              especially in <span className='emphasized'>frontend</span> design,
+              so I am now doing my best to pursue a career in this field later
+              in the future.
+            </p>
+            <p>
+              I enjoy coding and have been taking courses to further my
+              understanding about programming principles, algorithms, and Web
+              technologies. I started my journey with{' '}
+              <span className='emphasized'>C</span>, fell in love with
+              object-oriented <span className='emphasized'>C++</span>,{' '}
+              <span className='emphasized'>Java</span>,{' '}
+              <span className='emphasized'>Python</span>, and am now working
+              with <span className='emphasized'>HTML</span>,{' '}
+              <span className='emphasized'>CSS</span>, and{' '}
+              <span className='emphasized'>JS</span> on a regular basis.
+            </p>
+            <p>
+              Currently, I am looking for internship opportunities in{' '}
+              <span className='emphasized'>software engineering</span> for
+              Summer and Fall 2022. Feel free to check out my resume and I am
+              always ready for a chat!
             </p>
           </Col>
-          <Col className='ml-5 img-about' lg='5'>
-            <img
-              src='https://sonmac1203.github.io/img/sonmac1.jpeg'
-              className='img-fluid avatar'
-            />
+          <Col className='img-about' lg='5'>
+            <img src={avatar} className='img-fluid avatar' />
           </Col>
         </Row>
       </Container>
