@@ -5,7 +5,7 @@ const Hello = () => {
   return (
     <section id='hello'>
       <Container>
-        <h5>Xin chao &#128075;, I am</h5>
+        <h5>Xin chao &#9996;, I am</h5>
         <h1 className='my-name'>Son Mac</h1>
         <h3>
           Undergrad student @ <span className='emphasized'>UArizona</span>

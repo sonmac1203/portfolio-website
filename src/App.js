@@ -11,7 +11,7 @@ import { Container } from 'reactstrap';
 function App() {
   return (
     <main>
-      {/* <NavBar /> */}
+      <NavBar />
       <Hello />
       <About />
       <Experiences />

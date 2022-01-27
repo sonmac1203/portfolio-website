@@ -1,30 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #071c34;
   color: #93c7c7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 #hello {
-  margin-top: 230px;
-}
-
-#about {
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 .element-name {
-  padding-top: 90px;
+  padding-top: 140px;
   color: #b2ffff;
 }
 
+#about,
 #experiences,
 #projects,
 #contact {
   margin-top: 250px;
+}
+
+.about-container {
+  padding-top: 100px;
 }
 
 h1.my-name {
@@ -47,24 +47,48 @@ h1.my-name {
   border-radius: 10px;
 }
 
-.exp-first,
-.exp-second,
-.exp-third {
-  border-left: solid #fdee17;
+.exp-item {
+  border-left: 3px solid #93c7c7;
+  box-shadow: -2px 0 #fdee17;
 }
 
-.project-first {
-  display: grid;
-  position: relative;
+.project-description-even,
+.project-description-odd {
+  border: 2px solid #b2ffff;
+  border-radius: 5px;
+}
+
+.project-description-odd:hover {
+  box-shadow: 15px 0 0 -2px #071c34, 15px 0 0 0 #fdee17;
+}
+
+.project-description-even:hover {
+  box-shadow: -15px 0 0 -2px #071c34, -15px 0 0 0 #fdee17;
 }
 
 .project-img {
   width: 100%;
   height: 100%;
+  box-shadow: 0px 10px 20px #07121f;
+  border-radius: 5px;
+}
+
+.project-name,
+.project-tech {
+  color: #b2ffff;
+}
+
+.project-badge {
+  background-color: #b2ffff;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  color: #071c34;
+  font-size: 15px;
 }
 
 i {
   font-size: 20px;
+  color: #fdee17;
 }
 
 .fa-github-square,
@@ -89,4 +113,38 @@ i {
 
 .experience-title {
   color: #b2ffff;
+}
+
+a {
+  color: #b2ffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fdee17;
+}
+
+.exp-list {
+  list-style: square;
+}
+
+.btn.contact-btn {
+  padding: 5px 20px;
+  font-size: 25px;
+  margin-top: 15px;
+  background-color: #b2ffff;
+  color: #071c34;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn.contact-btn:focus {
+  box-shadow: none;
+}
+
+.btn.contact-btn:active {
+  background-color: #fdee17;
+  color: #071c34;
+  border: none;
+  box-shadow: none;
 }

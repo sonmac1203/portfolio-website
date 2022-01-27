@@ -5,11 +5,11 @@ import avatar from '../photos/avatar.jpg';
 const About = () => {
   return (
     <section id='about'>
-      <Container>
-        <h2 className='element-name'>About me</h2>
+      <Container className='about-containter'>
+        <h2 className='element-name'>Who I am &#9995;</h2>
         <Row className='mt-4'>
           <Col className='about-paragraph' lg='7'>
-            <p>
+            <p className='mb-4'>
               Hi there! My name is <span className='emphasized'>Son Mac</span>.
               I am an <span className='emphasized'>international</span>{' '}
               undergraduate student in{' '}
@@ -24,7 +24,7 @@ const About = () => {
               so I am now doing my best to pursue a career in this field later
               in the future.
             </p>
-            <p>
+            <p className='mb-4'>
               I enjoy coding and have been taking courses to further my
               understanding about programming principles, algorithms, and Web
               technologies. I started my journey with{' '}

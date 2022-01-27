@@ -13,7 +13,9 @@ const Contact = () => {
   return (
     <section id='contact'>
       <Container>
-        <h2 className='d-flex justify-content-center element-name'>Contact</h2>
+        <h2 className='d-flex justify-content-center element-name'>
+          How To Reach Me &#128074;
+        </h2>
         <p className='d-flex justify-content-center'>Let's get in touch!</p>
         <Row className='justify-content-center mt-4 mb-5'>
           <Col lg='6'>
@@ -46,7 +48,7 @@ const Contact = () => {
               </FormGroup>
             </Form>
             <div className='d-flex justify-content-center'>
-              <Button>Send</Button>
+              <Button className='contact-btn'>Send</Button>
             </div>
           </Col>
         </Row>
