@@ -1,13 +1,11 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import NavBar from './NavBar';
 import resume from '../assets/Resume_SonMac.pdf';
 
 const Hello = () => {
   return (
     <section id='hello'>
-      <NavBar />
-      <Container className='hello-container'>
+      <Container>
         <h5>Xin chao &#9996;, I am</h5>
         <h1 className='my-name'>Son Mac</h1>
         <h3>
