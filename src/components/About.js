@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
-import avatar from '../photos/avatar.jpg';
+import avatar from '../assets/avatar.jpg';
 
 const About = () => {
   return (

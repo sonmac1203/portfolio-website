@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import NavBar from './NavBar';
+import resume from '../assets/Resume_SonMac.pdf';
 
 const Hello = () => {
   return (
@@ -13,11 +14,7 @@ const Hello = () => {
           SWE intern @ <span className='emphasized'>Skipli</span>
         </h3>
         <div className='d-flex justify-content-start mt-4 emphasized'>
-          <a
-            href='https://drive.google.com/file/d/1astZYP4HB1mqvHW84tMa4A4PNkCfwTWm/view?usp=sharing'
-            target='_blank'
-            className='ordinary-link'
-          >
+          <a href={resume} target='_blank' className='ordinary-link'>
             <i className='fas fa-file-alt mr-5'></i>
           </a>
           <a

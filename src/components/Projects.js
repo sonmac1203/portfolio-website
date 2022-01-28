@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col, Container, Badge } from 'reactstrap';
 import { List } from 'reactstrap';
-import zendesk from '../photos/zendesk.jpg';
-import nasa from '../photos/nasa.png';
-import restaurant from '../photos/restaurant.png';
+import zendesk from '../assets/zendesk.jpg';
+import nasa from '../assets/nasa.png';
+import restaurant from '../assets/restaurant.png';
 
 const Projects = () => {
   return (
