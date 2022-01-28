@@ -26,6 +26,10 @@ body {
   padding: 0;
 }
 
+#contact {
+  min-height: 90vh;
+}
+
 .navbar {
   position: absolute;
   top: 0;
@@ -124,7 +128,7 @@ i:hover {
 
 .footer {
   padding-bottom: 25px;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   text-align: center;
   bottom: 0;
   left: 0;
