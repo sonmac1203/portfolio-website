@@ -8,7 +8,7 @@ const Hello = () => {
         <h5>Xin chao &#9996;, I am</h5>
         <h1 className='my-name'>Son Mac</h1>
         <h3>
-          Undergrad student @ <span className='emphasized'>UArizona</span>
+          SWE intern @ <span className='emphasized'>Skipli</span>
         </h3>
         <div className='d-flex justify-content-start mt-4 emphasized'>
           <a
