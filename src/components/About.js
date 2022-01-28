@@ -11,8 +11,8 @@ const About = () => {
           <Col className='about-paragraph mb-4' lg='7'>
             <p className='mb-4'>
               Hi there! My name is <span className='emphasized'>Son Mac</span>.
-              I am an <span className='emphasized'>international</span>{' '}
-              undergraduate student in{' '}
+              I am a <span className='emphasized'>third-year</span>{' '}
+              undergraduate in{' '}
               <span className='emphasized'>
                 Electrical &#38; Computer Engineering
               </span>{' '}
