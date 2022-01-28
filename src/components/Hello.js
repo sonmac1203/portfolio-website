@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container } from 'reactstrap';
+import NavBar from './NavBar';
 
 const Hello = () => {
   return (
     <section id='hello'>
-      <Container>
+      <NavBar />
+      <Container className='hello-container'>
         <h5>Xin chao &#9996;, I am</h5>
         <h1 className='my-name'>Son Mac</h1>
         <h3>

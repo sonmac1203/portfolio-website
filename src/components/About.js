@@ -5,7 +5,7 @@ import avatar from '../photos/avatar.jpg';
 const About = () => {
   return (
     <section id='about'>
-      <Container className='about-containter'>
+      <Container>
         <h2 className='element-name'>Who I am &#9995;</h2>
         <Row className='mt-4'>
           <Col className='about-paragraph mb-4' lg='7'>
