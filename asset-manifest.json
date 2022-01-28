@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3852fe46.css",
+    "main.css": "/static/css/main.11f2ffb1.css",
     "main.js": "/static/js/main.0d2d54fc.js",
     "static/media/restaurant.png": "/static/media/restaurant.3ce56261c77c6607fdf7.png",
     "static/media/nasa.png": "/static/media/nasa.7f6e7d8dc3f9bc435400.png",
     "static/media/avatar.jpg": "/static/media/avatar.80f8f13ae12b36f28986.jpg",
     "static/media/zendesk.jpg": "/static/media/zendesk.05cc2e8250df4a92ea6c.jpg",
     "index.html": "/index.html",
-    "main.3852fe46.css.map": "/static/css/main.3852fe46.css.map",
+    "main.11f2ffb1.css.map": "/static/css/main.11f2ffb1.css.map",
     "main.0d2d54fc.js.map": "/static/js/main.0d2d54fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.3852fe46.css",
+    "static/css/main.11f2ffb1.css",
     "static/js/main.0d2d54fc.js"
   ]
 }
