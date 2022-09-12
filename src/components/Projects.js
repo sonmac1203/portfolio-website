@@ -1,27 +1,43 @@
 import React from 'react';
 import { Row, Col, Container, Badge } from 'reactstrap';
 import { List } from 'reactstrap';
-import zendesk from '../assets/zendesk.jpg';
-import nasa from '../assets/nasa.png';
+import projects from '../config/projects.json';
+import betweenUs from '../assets/betweenUs.png';
+import allinone from '../assets/all-in-one.png';
 import restaurant from '../assets/restaurant.png';
 
 const Projects = () => {
+  const images = [betweenUs, allinone, restaurant];
   return (
     <section id='projects'>
       <Container>
         <h2 className='mb-5 element-name d-flex justify-content-center'>
           What I've Worked On &#9997;
         </h2>
-        <div className='mb-5'>
+        {projects.map((p, k) => (
+          <ProjectItem
+            key={k}
+            img={images[k]}
+            isOdd={k % 2 === 0}
+            badge={p.badge}
+            githubUrl={p.githubURL}
+            demoUrl={p.demoUrl}
+            title={p.title}
+            description={p.description}
+            skills={p.skills}
+            last={k === projects.length - 1}
+          />
+        ))}
+        {/* <div className='mb-5'>
           <Row>
             <Col xl='6' className='order-xl-1 mb-2'>
               <img
-                src={zendesk}
+                src='https://www.w3schools.com/images/picture.jpg'
                 className='project-img'
                 alt='zendesk ticket viewer demo'
               />
             </Col>
-            <Col xl='6' className='order-xl-2 project-card'>
+            <Col xl='6' className='order-xl-2'>
               <div className='project-description-odd'>
                 <div className='d-flex justify-content-between'>
                   <Badge className='ml-4 mt-4 mb-3 project-badge'>
@@ -152,9 +168,68 @@ const Projects = () => {
               </div>
             </Col>
           </Row>
-        </div>
+        </div> */}
       </Container>
     </section>
+  );
+};
+
+const ProjectItem = ({
+  img,
+  isOdd,
+  badge,
+  githubUrl,
+  demoUrl,
+  title,
+  description,
+  skills,
+  last,
+}) => {
+  return (
+    <div className={!last ? 'mb-5' : ''}>
+      <Row>
+        <Col xl='6' className={isOdd ? 'order-xl-1 mb-2' : 'order-xl-2 mb-2'}>
+          <img src={img} className='project-img' alt={title} />
+        </Col>
+        <Col xl='6' className={isOdd ? 'order-xl-2' : 'order-xl-1'}>
+          <div
+            className={
+              isOdd ? 'project-description-odd' : 'project-description-even'
+            }
+          >
+            <div className='d-flex justify-content-between'>
+              <Badge className='ml-4 mt-4 mb-3 project-badge'>
+                {'#' + badge}
+              </Badge>
+              <a href={githubUrl} target='_blank' className='ordinary-link'>
+                <i className='fab fa-github mr-4 mt-4'></i>
+              </a>
+              {demoUrl && (
+                <a href={demoUrl} target='_blank' className='ordinary-link'>
+                  <i className='fas fa-external-link-alt mr-4'></i>
+                </a>
+              )}
+            </div>
+            <h3 className='ml-4 mb-4 project-name'>{title}</h3>
+            <List className='mr-3 ml-4' type='unstyled'>
+              {description.map((item, key) => (
+                <li key={key}>{item}</li>
+              ))}
+            </List>
+            <h6 className='ml-4 mb-4 mr-4 mt-4 project-tech'>
+              {skills.map((skill, k) => {
+                return (
+                  <>
+                    {skill}
+                    {k === skill.length - 1 ? '' : <> &nbsp; &nbsp; </>}
+                  </>
+                );
+              })}
+            </h6>
+          </div>
+        </Col>
+      </Row>
+    </div>
   );
 };
 
