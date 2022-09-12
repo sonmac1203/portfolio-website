@@ -11,18 +11,18 @@ const About = () => {
           <Col className='about-paragraph mb-4' lg='7'>
             <p className='mb-4'>
               Hi there! My name is <span className='emphasized'>Son Mac</span>.
-              I am a <span className='emphasized'>third-year</span>{' '}
+              I am a <span className='emphasized'>fourth-year</span>{' '}
               undergraduate in{' '}
               <span className='emphasized'>
                 Electrical &#38; Computer Engineering
               </span>{' '}
               at the <span className='emphasized'>University of Arizona</span>.
-              Entering junior year in college, I have found myself really
+              Entering college senior year, I have found myself really
               interested in{' '}
               <span className='emphasized'>software development</span>,
-              especially in <span className='emphasized'>frontend</span> design,
-              so I am now doing my best to pursue a career in this field later
-              in the future.
+              especially in the <span className='emphasized'>frontend</span>{' '}
+              domain, so I am now doing my best to pursue a career in this field
+              later in the future.
             </p>
             <p className='mb-4'>
               I enjoy coding and have been taking courses to further my
@@ -37,10 +37,12 @@ const About = () => {
               <span className='emphasized'>JS</span> on a regular basis.
             </p>
             <p>
-              Currently, I am looking for internship opportunities in{' '}
-              <span className='emphasized'>software engineering</span> for
-              Summer and Fall 2022. Feel free to check out my resume and I am
-              always ready for a chat!
+              Currently, I am looking for fulltime opportunities in{' '}
+              <span className='emphasized'>
+                software engineer / frontend engineer
+              </span>{' '}
+              for Summer and Fall 2023. Feel free to check out my resume and I
+              am always ready for a chat!
             </p>
           </Col>
           <Col className='img-about' lg='5'>
