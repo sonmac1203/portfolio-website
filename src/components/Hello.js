@@ -9,7 +9,9 @@ const Hello = () => {
         <h5>Xin chao &#9996;, I am</h5>
         <h1 className='my-name'>Son Mac</h1>
         <h3>
-          SWE intern @ <span className='emphasized'>Skipli</span>
+          Undergrad @ <span className='emphasized'>UArizona</span> | Former
+          Intern @<span className='emphasized'> Shopify</span> | Developer @
+          <span className='emphasized'> KMAP Arizona</span>
         </h3>
         <div className='d-flex justify-content-start mt-4 emphasized'>
           <a href={resume} target='_blank' className='ordinary-link'>
