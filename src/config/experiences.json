@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Front-end Developer Intern @",
+    "organization": "Shopify Inc.",
+    "url": "",
+    "time": "May 2022 - Aug 2022",
+    "description": [
+      "Improved usability of Finances Overview page, including fixing visual defects, building a new skeleton page, and enhancing data display in analytical charts.",
+      "Modified and added 45 unit tests to ensure proper behaviors and utilized Storybook to visualize, develop, and test components effectively.",
+      "Volunteered to investigate misleading data display problems reported by merchants; submitted GitHub tickets and collaborated with team members to resolve the issue.",
+      "Engaged in team activities including team sync, backlog refinement, and casual hangouts through Google Meet."
+    ]
+  },
+  {
+    "title": "Application Developer @",
+    "organization": "KMAP Arizona",
+    "url": "https://kmap.arizona.edu/#/",
+    "time": "Feb 2022 - May 2022 / Sep 2022 - Present",
+    "description": [
+      "Revamped home page with a new user interface and implemented server-side rendering for better search engine optimization.",
+      "Enabled KMAP engineers to add and reflect new data sets to map faster by developing a configuration file with customizable attributes, linking database to front-end components.",
+      "Integrated Mapbox APIs and generated more than 200,000 data points related to academic faculties.",
+      "Backfilled json data into MongoDB using Python scripts and built API endpoints using Node.js and Express.js for internal usage."
+    ]
+  },
+  {
+    "title": "Programming Lab Assistant @",
+    "organization": "UArizona",
+    "url": "",
+    "time": "Aug 2020 - Jan 2022",
+    "description": [
+      "Facilitate weekly lab sessions and office hours to help students with programming concepts and troubleshoot their C code.",
+      "Assist instructors with coding assignments and exam grading using Visual Studio 2019."
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Between Us",
+    "badge": "personal",
+    "githubURL": "https://github.com/sonmac1203/birthday-app",
+    "demoURL": "",
+    "description": [
+      "Developed a web application for couples enabling them to upload photos with short descriptions as a gallery, detail any date with an interactive calendar, exchange notes, and see how long they have been together with a day counter.",
+      "Employed MERN tech stack for development and Cloudinary for photo storage."
+    ],
+    "skills": ["React", "Node.js", "Express.js", "MongoDB", "Cloudinary"]
+  },
+  {
+    "title": "All-In-One Social Media",
+    "badge": "personal",
+    "githubURL": "https://github.com/sonmac1203/Social-media-dashboard",
+    "demoURL": "",
+    "description": [
+      "Made and deployed a React web app providing all-in-one social media management for restaurant and shop owners.",
+      "Integrated Facebook APIs to enable publishing, updating, deleting, viewing, and scheduling content on business accounts.",
+      "Leveraged Firebase for email-password authentication and data storage."
+    ],
+    "skills": [
+      "React",
+      "HTML",
+      "CSS",
+      "Firebase",
+      "Bootstrap",
+      "REST APIs",
+      "Git"
+    ]
+  },
+  {
+    "title": "Restaurant Management",
+    "badge": "team",
+    "githubURL": "https://github.com/sonmac1203/Restaurant_System",
+    "demoURL": "",
+    "description": [
+      "A semester long project in an OOP course where I led a team of 3 to build a simulated Restaurant System that allows managers, chefs, and customers to perform different kinds of real-life task such as hiring new staff and ordering food.",
+      "Integrated Facebook APIs to enable publishing, updating, deleting, viewing, and scheduling content on business accounts.",
+      "We also created an interactive UI with Java Swing library for better visualization and scalability"
+    ],
+    "skills": ["Java", "Swing", "Acceleo", "Papyrus", "Eclipse"]
+  }
+]
