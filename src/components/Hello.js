@@ -11,7 +11,7 @@ const Hello = () => {
         <h3>
           Undergrad @ <span className='emphasized'>UArizona</span> | Former
           Intern @<span className='emphasized'> Shopify</span> | Developer @
-          <span className='emphasized'> KMAP Arizona</span>
+          <span className='emphasized'> KMap Arizona</span>
         </h3>
         <div className='d-flex justify-content-start mt-4 emphasized'>
           <a href={resume} target='_blank' className='ordinary-link'>
