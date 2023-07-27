@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "https://www.sonmac.me/",
+  "homepage": "https://www.sonmac1203.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build; touch ./build/CNAME; echo \"www.sonmac.me\" > ./build/CNAME",
+    "predeploy": "npm run build; touch ./build/CNAME; echo \"sonmac1203.github.io\" > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
