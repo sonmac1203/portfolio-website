@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.369488b6.css",
-    "main.js": "/static/js/main.c42cda59.js",
+    "main.js": "/static/js/main.4f8a394a.js",
     "static/media/betweenUs.png": "/static/media/betweenUs.6401903437d4212f936f.png",
     "static/media/restaurant.png": "/static/media/restaurant.3ce56261c77c6607fdf7.png",
     "static/media/avatar.jpg": "/static/media/avatar.80f8f13ae12b36f28986.jpg",
@@ -9,10 +9,10 @@
     "static/media/Resume_SonMac.pdf": "/static/media/Resume_SonMac.910c1a73b42282ac4b82.pdf",
     "index.html": "/index.html",
     "main.369488b6.css.map": "/static/css/main.369488b6.css.map",
-    "main.c42cda59.js.map": "/static/js/main.c42cda59.js.map"
+    "main.4f8a394a.js.map": "/static/js/main.4f8a394a.js.map"
   },
   "entrypoints": [
     "static/css/main.369488b6.css",
-    "static/js/main.c42cda59.js"
+    "static/js/main.4f8a394a.js"
   ]
 }
